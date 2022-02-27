@@ -4,5 +4,5 @@ build-image:
 
 .PHONY: dev
 dev:
-	docker run --rm -it -v $(CURDIR)/src:/home/user/src -w /home/user/src --platform=linux/amd64 compilerbook
+	docker run --rm -it -v $(CURDIR)/src:/home/user/src -w /home/user/src/9cc --platform=linux/amd64 compilerbook
 
