@@ -119,7 +119,7 @@ int main(int argc, char **argv) {
     expect('-');
     printf("  sub rax, %d\n", expect_number());
   }
-  // fprintf(stderr, "予期しない文字です: '%c'\n", *p);
+
   printf("  ret\n");
   return 0;
 }
